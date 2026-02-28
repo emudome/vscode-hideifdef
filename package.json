@@ -2,7 +2,7 @@
   "name": "hideifdef",
   "displayName": "%displayName%",
   "description": "%description%",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "emudome",
   "icon": "img/icon.png",
   "repository": {
@@ -39,7 +39,19 @@
         "ifdef.enabled": {
           "type": "boolean",
           "default": false,
-          "description": "%configuration.enabled.description%"
+          "description": "%configuration.enabled.description%",
+          "deprecationMessage": "%configuration.enabled.deprecation%"
+        },
+        "ifdef.mode": {
+          "type": "string",
+          "enum": ["visible", "hidden", "hiddenFolded"],
+          "enumDescriptions": [
+            "%configuration.mode.visible%",
+            "%configuration.mode.hidden%",
+            "%configuration.mode.hiddenFolded%"
+          ],
+          "default": "visible",
+          "description": "%configuration.mode.description%"
         },
         "ifdef.opacity": {
           "type": "number",

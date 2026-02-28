@@ -1,4 +1,5 @@
 {
+  "statusBar.visible": "#ifdef を表示中",
   "statusBar.hidden": "#ifdef を非表示中",
-  "statusBar.visible": "#ifdef を表示中"
+  "statusBar.hiddenFolded": "#ifdef を非表示+折りたたみ中"
 }
