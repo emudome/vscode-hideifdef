@@ -1,8 +1,13 @@
 {
   "displayName": "Hide #ifdef Regions",
   "description": "#ifdef、#else、プリプロセッサディレクティブを含む無効なコード領域を非表示にし、条件付きコンパイルが多いファイルでもコードを読みやすくします。",
-  "command.toggle.title": "#ifdef 領域の表示/非表示を切り替え",
+  "command.toggle.title": "#ifdef 領域の表示モードを切り替え",
   "configuration.title": "Hide #ifdef Regions",
-  "configuration.enabled.description": "起動時に無効なコード領域を非表示にします。",
+  "configuration.enabled.description": "（非推奨）ifdef.mode を使用してください。",
+  "configuration.enabled.deprecation": "この設定は非推奨です。ifdef.mode を使用してください。",
+  "configuration.mode.description": "無効なコード領域の表示モード。",
+  "configuration.mode.visible": "すべての領域を通常表示します。",
+  "configuration.mode.hidden": "無効領域を非表示（透過）にしますが、折りたたみは行いません。",
+  "configuration.mode.hiddenFolded": "無効領域を非表示にし、自動的に折りたたみます。",
   "configuration.opacity.description": "非表示領域の不透明度 (0 = 非表示, 1 = 完全に表示)。"
 }

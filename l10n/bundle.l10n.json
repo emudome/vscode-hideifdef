@@ -1,4 +1,5 @@
 {
+  "statusBar.visible": "#ifdef is visible",
   "statusBar.hidden": "#ifdef is hidden",
-  "statusBar.visible": "#ifdef is visible"
+  "statusBar.hiddenFolded": "#ifdef is hidden and folded"
 }
