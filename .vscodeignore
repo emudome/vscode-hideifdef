@@ -1,5 +1,7 @@
+.*
+.*/**
 **/.vscode/**
 **/*.ts
 **/*.map
-**/.git/**
 node_modules/**
+img/demo.gif
