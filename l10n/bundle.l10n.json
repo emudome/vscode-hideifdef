@@ -1,0 +1,4 @@
+{
+  "statusBar.hidden": "#ifdef is hidden",
+  "statusBar.visible": "#ifdef is visible"
+}

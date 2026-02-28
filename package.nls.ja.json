@@ -1,0 +1,8 @@
+{
+  "displayName": "Hide #ifdef Regions",
+  "description": "#ifdef、#else、プリプロセッサディレクティブを含む無効なコード領域を非表示にし、条件付きコンパイルが多いファイルでもコードを読みやすくします。",
+  "command.toggle.title": "#ifdef 領域の表示/非表示を切り替え",
+  "configuration.title": "Hide #ifdef Regions",
+  "configuration.enabled.description": "起動時に無効なコード領域を非表示にします。",
+  "configuration.opacity.description": "非表示領域の不透明度 (0 = 非表示, 1 = 完全に表示)。"
+}

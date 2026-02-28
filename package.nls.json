@@ -1,0 +1,8 @@
+{
+  "displayName": "Hide #ifdef Regions",
+  "description": "Hides inactive code regions including #ifdef, #else, and preprocessor directives, making code easier to read even in files with many conditional compilation blocks.",
+  "command.toggle.title": "Toggle #ifdef Regions Visibility",
+  "configuration.title": "Hide #ifdef Regions",
+  "configuration.enabled.description": "Enable hiding of inactive code regions on startup.",
+  "configuration.opacity.description": "Opacity level for hidden regions (0 = invisible, 1 = fully visible)."
+}

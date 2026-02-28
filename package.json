@@ -1,0 +1,64 @@
+{
+  "name": "hideifdef",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.0.1",
+  "publisher": "emudome",
+  "icon": "img/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emudome/hideifdef.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Visualization"
+  ],
+  "extensionDependencies": [
+    "llvm-vs-code-extensions.vscode-clangd"
+  ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:c",
+    "onLanguage:cpp"
+  ],
+  "main": "./out/extension.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ifdef.toggle",
+        "title": "%command.toggle.title%"
+      }
+    ],
+    "configuration": {
+      "title": "%configuration.title%",
+      "properties": {
+        "ifdef.enabled": {
+          "type": "boolean",
+          "default": false,
+          "description": "%configuration.enabled.description%"
+        },
+        "ifdef.opacity": {
+          "type": "number",
+          "default": 0,
+          "minimum": 0,
+          "maximum": 1,
+          "description": "%configuration.opacity.description%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.4.0"
+  }
+}

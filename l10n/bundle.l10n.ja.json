@@ -1,0 +1,4 @@
+{
+  "statusBar.hidden": "#ifdef を非表示中",
+  "statusBar.visible": "#ifdef を表示中"
+}
